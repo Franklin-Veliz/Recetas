@@ -15,24 +15,8 @@ class _BarraInferiosState extends State<BarraInferior> {
   int selectedIndex = 0;
   final screens = [HomePage(), Favorito(), LoginPage()];
   final navigationKey = GlobalKey<CurvedNavigationBarState>();
-  final colores = [Colors.blueGrey, Colors.deepOrange, Colors.green];
-  final botones = <Widget>[
-    Icon(
-      Icons.home_outlined,
-      size: 30,
-      color: Colors.blueGrey,
-    ),
-    Icon(
-      Icons.favorite_border,
-      size: 30,
-      color: Colors.red,
-    ),
-    Icon(
-      Icons.account_circle_outlined,
-      size: 30,
-      color: Colors.green,
-    ),
-  ];
+  //final colores = [Colors.blueGrey, Colors.deepOrange, Colors.green];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +32,11 @@ class _BarraInferiosState extends State<BarraInferior> {
           animationCurve: Curves.easeInOut,
           animationDuration: Duration(milliseconds: 300),
           index: selectedIndex,
-          items: botones,
+          items: <Widget>[
+            _builNavItem(Icons.home, selectedIndex == 0),
+            _builNavItem2(Icons.favorite, selectedIndex == 1),
+            _builNavItem3(Icons.account_circle, selectedIndex == 2),
+          ],
           onTap: (value) {
             setState(() {
               selectedIndex = value;
@@ -57,5 +45,24 @@ class _BarraInferiosState extends State<BarraInferior> {
         ),
       ),
     );
+  }
+
+  Widget _builNavItem(IconData icon, bool selectedIndex) {
+    return Icon(Icons.home,
+        color: selectedIndex
+            ? const Color.fromARGB(255, 72, 79, 219)
+            : Colors.blueGrey);
+  }
+
+  Widget _builNavItem2(IconData icon, bool selectedIndex) {
+    return Icon(Icons.favorite,
+        color: selectedIndex
+            ? const Color.fromARGB(255, 231, 56, 56)
+            : Colors.blueGrey);
+  }
+
+  Widget _builNavItem3(IconData icon, bool selectedIndex) {
+    return Icon(Icons.account_circle,
+        color: selectedIndex ? Colors.green : Colors.blueGrey);
   }
 }
