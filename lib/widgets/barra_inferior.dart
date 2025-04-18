@@ -1,8 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:recetas/src/favoritos.dart';
-import 'package:recetas/src/home_page.dart';
-import 'package:recetas/src/login.dart';
+import 'package:recetas/src/views/favoritos.dart';
+import 'package:recetas/src/views/home_page.dart';
+import 'package:recetas/src/views/login.dart';
 
 class BarraInferior extends StatefulWidget {
   const BarraInferior({super.key});
@@ -20,6 +20,7 @@ class _BarraInferiosState extends State<BarraInferior> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
       //backgroundColor: Colors.tealAccent,
       body: screens[selectedIndex],
       bottomNavigationBar: Container(
@@ -37,6 +38,7 @@ class _BarraInferiosState extends State<BarraInferior> {
             _builNavItem2(Icons.favorite, selectedIndex == 1),
             _builNavItem3(Icons.account_circle, selectedIndex == 2),
           ],
+          // buttonBackgroundColor: Colors.brown,
           onTap: (value) {
             setState(() {
               selectedIndex = value;

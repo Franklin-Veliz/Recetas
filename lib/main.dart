@@ -1,22 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:recetas/src/barra_inferior.dart';
+//import 'package:recetas/src/views/home_page.dart';
+//import 'package:recetas/widgets/barra_inferior.dart';
+import 'package:recetas/widgets/barra_inferior.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: "Recetas",
       home: BarraInferior(),
     );
   }

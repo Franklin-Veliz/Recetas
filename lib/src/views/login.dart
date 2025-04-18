@@ -21,9 +21,11 @@ class LoginPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  Image.asset(
-                    './asset/logos/logo.jpg',
-                    height: 150,
+                  Center(
+                    child: Image.asset(
+                      './assets/logos/logo.jpg',
+                      height: 150,
+                    ),
                   ),
                   SizedBox(
                     height: 20,
@@ -39,7 +41,8 @@ class LoginPage extends StatelessWidget {
                     },
                     decoration: InputDecoration(
                       labelText: 'Usuario',
-                      border: OutlineInputBorder(),
+                      icon: Icon(Icons.person),
+                      disabledBorder: OutlineInputBorder(),
                     ),
                   ),
                   SizedBox(
@@ -63,54 +66,62 @@ class LoginPage extends StatelessWidget {
                       return null;
                     },
                     decoration: InputDecoration(
+                      suffixIcon:
+                          true ? Icon(Icons.remove_red_eye) : Icon(Icons.done),
                       labelText: 'Pasword',
-                      border: OutlineInputBorder(),
+                      disabledBorder: OutlineInputBorder(),
+                      icon: Icon(Icons.lock),
                     ),
                   ),
-                  ElevatedButton(
-                    onPressed: () {
-                      // formkey.currentState!.validate();
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Center(
+                    child: ElevatedButton(
+                      onPressed: () {
+                        // formkey.currentState!.validate();
 
-                      if (userController.text.trim().isEmpty) {
-                        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                          action: SnackBarAction(
-                            label: 'Cerrar',
-                            onPressed: () {},
-                          ),
-                          content: Column(
-                            children: [
-                              Text('Titulo'),
-                              Text('El usuario es obligatorio'),
-                            ],
-                          ),
-                        ));
+                        if (userController.text.trim().isEmpty) {
+                          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                            action: SnackBarAction(
+                              label: 'Cerrar',
+                              onPressed: () {},
+                            ),
+                            content: Column(
+                              children: [
+                                Text('Titulo'),
+                                Text('El usuario es obligatorio'),
+                              ],
+                            ),
+                          ));
 
-                        showDialog(
-                            context: context,
-                            builder: (context) => AlertDialog(
-                                  title: Text('Aviso!'),
-                                  content: Text('El usuario es obligatorio'),
-                                  actions: [
-                                    TextButton(
-                                      onPressed: () {
-                                        context.go('/productos');
-                                      },
-                                      child: Text('oki'),
-                                    ),
-                                    TextButton(
-                                      onPressed: () {
-                                        context.pop();
-                                      },
-                                      child: Text('Cancelar'),
-                                    ),
-                                  ],
-                                ));
-                        return;
-                      }
-                      print(userController.text);
-                      print(passwordController.text);
-                    },
-                    child: Text('Inicar Sesión'),
+                          showDialog(
+                              context: context,
+                              builder: (context) => AlertDialog(
+                                    title: Text('Aviso!'),
+                                    content: Text('El usuario es obligatorio'),
+                                    actions: [
+                                      TextButton(
+                                        onPressed: () {
+                                          context.go('/productos');
+                                        },
+                                        child: Text('Aceptar'),
+                                      ),
+                                      TextButton(
+                                        onPressed: () {
+                                          context.pop();
+                                        },
+                                        child: Text('Cancelar'),
+                                      ),
+                                    ],
+                                  ));
+                          return;
+                        }
+                        print(userController.text);
+                        print(passwordController.text);
+                      },
+                      child: Text('Inicar Sesión'),
+                    ),
                   )
                 ],
               ),
@@ -127,6 +138,7 @@ extension on BuildContext {
 
   void go(String s) {}
 }
+
 /*
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
@@ -146,7 +158,7 @@ class LoginPage extends StatelessWidget {
             child: Form(
               key: formkey,
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.end,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   TextFormField(
                     controller: userController,
