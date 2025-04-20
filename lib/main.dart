@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:recetas/src/views/home_page.dart';
-//import 'package:recetas/widgets/barra_inferior.dart';
+import 'package:recetas/src/views/home_page.dart';
 import 'package:recetas/widgets/barra_inferior.dart';
 
 void main() => runApp(MyApp());

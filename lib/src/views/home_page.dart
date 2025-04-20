@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:recetas/src/api/api.dart';
+import 'package:recetas/widgets/barra_inferior.dart';
 import 'package:recetas/widgets/item_list.dart';
 
 class HomePage extends StatelessWidget {

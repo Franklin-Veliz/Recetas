@@ -410,7 +410,7 @@ const recetas = [
         "Cortamos los dos aguacates a la mitad, les sacamos el hueso y ponemos el fruto en un bol grande. Con la ayuda de un tenedor o de un pisa patatas, aplastamos la carne de aguacate hasta que nos quede la textura que más nos guste, con algún trocito o como una crema. Después, lavamos los jitomates, los cortamos en dados y los añadimos al bol junto con el aguacate. La cebolla podemos picarla finita o pasarla por un rallador. Si la rallas, hazlo sobre un plato o sobre el propio bol del guacamole para aprovechar todo el jugo que suelte. Picamos también el cilantro fresco y lo incorporamos. Exprimimos el medio limón y lo añadimos al bol junto con el aceite de oliva virgen extra, la sal y la pimienta. Removemos todo bien con ayuda de un tenedor para que todos los ingredientes se incorporen y se fundan los sabores.",
     "tiempo": "10 min",
     "image":
-        " https://www.allrecipes.com/thmb/FOHqtfrZVg0WAMdkFE3bnp7SNO4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-RM-14064-easy-guacamole-ddmfs-3x4-9e4a1eb1bb34421a99db675b53a29e53.jpg"
+        "https://www.allrecipes.com/thmb/FOHqtfrZVg0WAMdkFE3bnp7SNO4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-RM-14064-easy-guacamole-ddmfs-3x4-9e4a1eb1bb34421a99db675b53a29e53.jpg"
   },
   {
     "id": 33,
@@ -448,7 +448,7 @@ const recetas = [
         "En un recipiente grande, mezcla bien la harina, polvo para hornear, azúcar, y sal. Luego agrega el huevo, la mantequilla y 6 cucharadas de agua. Revuelve con una cuchara de madera o espátula y luego empieza a amasar con las manos. Si ves que la masa todavía está muy seca, agrega una cucharada más de agua. Continúa amasando sobre una superficie plana hasta que la harina esté bien incorporada y la masa esté suave. Forma una bola con la masa y colócala en el recipiente donde mezclaste todos los ingredientes. Cúbrela con plástico de cocina o con un trapo de cocina y déjala reposar a temperatura ambiente por 30 minutos. Aplana la masa con un rodillo sobre una superficie plana enharinada hasta que quede más o menos de ¼ de pulgada (.64 cm) de gruesa formando un rectángulo que mida unas 10 x 13 pulgadas (25 x 33 cm). Luego corta la masa con un cuchillo en tiras que midan aprox. ¾ de pulgada (1, 91 cm) de ancho. Aplana cada tira con el rodillo una vez más para que quede bien delgada y se estire hasta medir unas 18 pulgadas (46 cm) de largo. Luego, envuelve cada palito de queso con una de las tiras, empezando por una de las puntas y terminando en la otra. Pellizca la masa en cada punta para sellarla y presiona los bordes para que queden bien sellados. Calienta el aceite en una sartén grande a fuego medio y luego fríe los palitos de queso por unos 3-4 minutos o hasta que estén dorados por cada lado. Voltéalos de vez en cuando para que no se quemen. Sácalos del aceite y escúrrelos sobre papel absorbente. Sírvelos inmediatamente",
     "tiempo": "20 min",
     "image":
-        " https://i.pinimg.com/736x/bc/fc/92/bcfc92d2feaae72a8abaa02103d3e020.jpg"
+        "https://talcualdigital.com/wp-content/uploads/2023/05/Tequenos-960x640.jpg"
   },
   {
     "id": 35,
@@ -467,7 +467,7 @@ const recetas = [
         "Enjuaga las alcaparras para eliminar el exceso de sal. Pela y pica los dientes de ajo. En un procesador de alimentos, añade las aceitunas negras deshuesadas, las alcaparras, los filetes de anchoas y los dientes de ajo picados. Agrega el jugo de medio limón. Procesa la mezcla hasta obtener una pasta suave, pero con algo de textura. Si prefieres una consistencia más rústica, procesa menos tiempo. Prueba la tapenade y añade pimienta negra al gusto. No debería necesitar sal adicional debido a la salinidad de las anchoas y las alcaparras. Transfiere la tapenade a un bol y sírvela con pan tostado, galletas saladas o como acompañamiento de platos principales",
     "tiempo": "10 min",
     "image":
-        " https://scontentr4p-d772.kxcdn.com/wp-content/uploads/2021/05/tapenade-de-aceitunas-negras.jpg"
+        "https://scontentr4p-d772.kxcdn.com/wp-content/uploads/2021/05/tapenade-de-aceitunas-negras.jpg"
   },
   {
     "id": 36,
@@ -484,7 +484,7 @@ const recetas = [
         "Colocar, primero, las 2 tiras de jamón, una encima de la otra. Arriba de estas, las 2 tiras de queso, y la espinaca. Enrollarlo. Colocarlos en un plato, y llevarlos al freezer, hasta que endurezcan. Una vez congelados, tomar un rollito y pasarlo por los huevos batidos con un poquito de sal. Luego, pasar por harina. Después, por huevo nuevamente, y por último por pan rallado. Freír en abundante aceite caliente, de ambos lados. Escurrir sobre papel absorbente. Se puede comer frío o caliente ",
     "tiempo": "15 min",
     "image":
-        " https://lh3.googleusercontent.com/proxy/8bJASnzGXL2V8u_kjVCr4id9JGZ8XUDEQC3cMK5fFMHLGRA8D1gADS5hRvyhRfuYKHv7OBMOSL8_f-LMtwB669jDRQyStRQdJZjNgFmKL3yWgn_dQ6ittlaYrAXdLL7fRk9EjQ"
+        "https://zenu.com.co/wp-content/uploads/2023/12/receta-de-rollitos-de-jamon-zenu.jpeg"
   },
   {
     "id": 37,
@@ -507,7 +507,7 @@ const recetas = [
         "Calienta el aceite de oliva en una sartén grande a fuego medio-alto. Saltea la cebolla y el pimiento hasta que estén blandos, por unos 4 minutos. Agrega el ajo y la carne, separa la carne en pedazos y cocina hasta que se dore y se cocine por completo, por unos 5-8 minutos. Reduce el fuego y agrega los tomates, el comino, el orégano, la sal, la pimienta, las aceitunas y cocina a fuego lento por 5 minutos. Prueba de condimentos y agrega más si lo deseas. Retira del fuego y deja enfriar por completo. Descongela la masa según las instrucciones del paquete y desenróllala sobre una tabla grande. Corta masa para empanadas con corta galletas de 2 pulgadas o un vaso pequeño Rellena cada masa para empanada con picadillo. Pliega cada empanada y cierra los bordes con un tenedor. Con un pincel, unta la parte superior de cada empanada con la mezcla de huevo y agua. Hornea por 8-10 minutos o hasta que se doren. Sirve caliente",
     "tiempo": "30 min",
     "image":
-        " https://maikki.at/cdn/shop/products/170600492_366234714597399_3035567870996526797_n.jpg?v=1676921855"
+        "https://www.goya.com/wp-content/uploads/2023/10/chipotle-chicken-mini-empanadas.jpg"
   },
   {
     "id": 38,
@@ -524,7 +524,7 @@ const recetas = [
         "Pelamos las papas, las picamos, las hervimos y esperamos a que se hiervan para hacer el puré. Hacemos el puré, le agregamos la mitad de la manteca y le agregamos 2 yemas de huevo. una vez que hayamos mezclado todo lo ponemos en la heladera una hora y media. Cuando ya hayamos sacado el puré de la heladera en un plato colocamos la harina en otro el pan rallado y por último batimos 3 huevos y los colocamos en un plato. En nuestras manos colocamos una cuchara del puré y empezamos a armar las pelotitas, una vez armadas las pasamos por la harina luego por los huevos batidos y por último por el pan rallado y hacemos lo mismo con las demás pelotitas. En una sartén ponemos mucho aceite esperamos a que este caliente para meter las pelotitas y esperar a que se cocinen. Ahora a disfrutar.",
     "tiempo": "30 min",
     "image":
-        " https://static.guiainfantil.com/pictures/blog2/2000/2084-bolitas-de-patata-cocina-con-ninos.jpg"
+        "https://lh6.googleusercontent.com/proxy/hccG42mXM_WNiUeWVJQco44l9VmrkKsqiGkfvEIPVOT9CIwhF5lExaEqAx_7lFUjMOSfHYUvNHhp4cedFDAz6Y4Ku9YkOlv1bRot6EHSo_qAlwHbfBr0KCg1EiWZ89Yzcc1BVV4"
   },
   {
     "id": 39,
@@ -544,7 +544,7 @@ const recetas = [
         "Mezcla el cilantro con los ingredientes siguientes (cilantro, tomates, cebolla, aceite de oliva, jugo de limón, vinagre, cátsup, salsa botanera) hasta que todo esté incorporado. Agrega el pescado y mezcla con mucho cuidado. Sirve el ceviche en las tostadas",
     "tiempo": "25 min",
     "image":
-        " https://www.foodandwine.com/thmb/fIX0RcfFa6DpFK1SHvMEOVn4YgU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Fish-and-Shrimp-Ceviche-Tostadas-FT-RECIPE0623-e6f64dff71b44e0bb06b6558ac8d6f79.jpg"
+        "https://www.foodandwine.com/thmb/fIX0RcfFa6DpFK1SHvMEOVn4YgU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Fish-and-Shrimp-Ceviche-Tostadas-FT-RECIPE0623-e6f64dff71b44e0bb06b6558ac8d6f79.jpg"
   },
   {
     "id": 40,
@@ -554,7 +554,7 @@ const recetas = [
         "Iniciamos cortando los tomates cherry por la mitad y las bolas de mozzarella en trozos del mismo tamaño que los tomates. En cada palito de brocheta, ensarta alternativamente un tomate cherry, un trozo de mozzarella y una hoja de albahaca doblada por la mitad. Repite el proceso hasta llenar todas las brochetas. Calienta una parrilla o sartén a fuego medio-alto y cocina las brochetas durante 2-3 minutos por cada lado, o hasta que la mozzarella se derrita ligeramente y los tomates estén ligeramente dorados. Retira las brochetas del fuego y sírvelas calientes.",
     "tiempo": "10 min",
     "image":
-        " https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/caprese-kabobs-with-balsamic-glaze.jpg"
+        "https://www.splenda.com/wp-content/themes/bistrotheme/assets/recipe-images/caprese-kabobs-with-balsamic-glaze.jpg"
   },
   {
     "id": 41,
@@ -573,7 +573,7 @@ const recetas = [
         "Sazonamos los trozos de pechuga y los doramos en una sartén caliente con aceite vegetal. Cuando estén dorados, agregamos el jugo de naranja, la salsa soya, la ralladura, la ramita de romero, la canela, la panela y el ají en escamas, revolvemos y ponemos las rodajas de naranja alrededor de los trozos de pollo. Cocinamos por 3 o 4 minutos a fuego medio. Aparte en un bowl mezclamos el agua y la fécula, la agregamos a la sartén y revolvemos muy bien, y mientras espesa mezclamos de vez en cuando, retiramos la ramita de romero y la sartén del fuego",
     "tiempo": "30 min",
     "image":
-        " https://www.recetasnestle.com.pe/sites/default/files/srh_recipes/76d0db552b487bd6851f36fe3eca2576.jpg"
+        "https://www.recetasnestle.com.pe/sites/default/files/srh_recipes/76d0db552b487bd6851f36fe3eca2576.jpg"
   },
   {
     "id": 42,
@@ -596,7 +596,7 @@ const recetas = [
         "1- Para preparar la salsa boloñesa necesitamos colocar una cacerola en el fuego y calentar en ella un chorro generoso de aceite de oliva virgen extra. Cuando lo tengamos listo, echamos el diente de ajo, previamente pelado y laminado, hasta que coja calor. Entonces, echamos la cebolla, bien picadita, y dejamos que se poche. 2-Cuando la cebolla ha cogido color, echamos el tomate triturado y bajamos el fuego para que se haga sin poner la cocina patas arriba. Pasados un par de minutos, echamos la sal al gusto juntos con una cucharada de azúcar para quitar la acidez del tomate, y un poquito de orégano y perejil. Removemos bien todo y dejamos que el tomate se cueza unos 15 minutos con el fuego bajo. 3-En un bol aparte mezclamos la carne picada con el zumo de medio limón, y lo aderezamos con un poquito de perejil y sal al gusto. Ponemos aceite de oliva virgen extra en una sartén y, cuando esté caliente, echamos la carne en ella y la dejamos hasta que esté doradita pero no hecha del todo. 4- Entonces, echamos la carne molida en la cacerola con la salsa de tomate y dejamos que termine de hacerse a fuego lento. 5-Mientras, vamos cociendo los espaguetis en una cacerola con agua abundante y un poquito de sal al gusto. Cuando estén al dente, los escurrimos y los echamos en la cacerola de salsa boloñesa para que cojan todo el sabor de la carne y del tomate.",
     "tiempo": "40 min",
     "image":
-        " https://editorialtelevisa.brightspotcdn.com/dims4/default/561592f/2147483647/strip/true/crop/672x672+259+0/resize/1000x1000!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2F4b%2Fff%2Fe483a9c1464f9219ca876d955626%2Fespagueti-a-la-bolonesa-receta.jpg"
+        "https://lh5.googleusercontent.com/proxy/WsmjGmTdt4UgPo-UTkxXE00tSI4k6fqjBmDvoxrnj6B0FAzV3vvKMASLNoxOj7rRYjHsgKKVEyUfblIlJs1IEeYCirR5trq0T2k_TYBB1NDK2MpV7EjceyZiLFSMg3o7aA"
   },
   {
     "id": 43,
@@ -626,7 +626,7 @@ const recetas = [
         "1- Para el relleno, pelamos y picamos finamente 2 dientes de ajo, 2 cebollas pequeñas (o 1 grande), 2 ramas de apio y 1 zanahoria. Calentamos 50 ml de aceite de oliva virgen extra en una cacerola y las pochamos durante 15 minutos a fuego suave junto con 1 cucharadita de sal, 1 cucharadita de pimienta negra molida y 1 cucharada de hierbas provenzales. 2- Picamos 5 lonchas de beicon y, una vez listas las verduras, lo incorporamos a la cacerola junto con 800 g de carne picada de ternera. Removemos, a fuego alto, durante un par de minutos para soltar la carne y evitar que quede apelmazada. 3-Cuando la carne haya cambiado de color agregamos 650 g de tomate natural triturado y 15 g de salsa de tomate. Salpimentamos al gusto, teniendo en cuenta que ya hemos condimentado las verduras, y cocemos el conjunto a fuego bajo durante 45 minutos o hasta obtener una salsa densa, pero jugosa. 4- Mientras tanto, preparamos la salsa bechamel y, para ello, fundimos 80 g de mantequilla en una sartén honda y agregamos 80 g de harina de trigo. Removemos para integrar ambos ingredientes y formar un roux. 5- A continuación, agregamos 800 ml de leche poco a poco y, al tiempo que la calentamos a fuego medio, la trabajamos con unas varillas para que se integre sin formar grumos. Condimentamos con media cucharadita de sal y un cuarto de cucharadita de pimienta blanca molida y cocemos, removiendo de vez en cuando, durante unos 10 minutos. 6-Listo el relleno y la salsa bechamel, el siguiente paso es montar la lasaña. Cubrimos la base de una fuente rectangular con una capa de salsa bechamel, para evitar que se pegue la lasaña al fondo y sea más fácil de porcionar y servir. 7-Colocamos capas de pasta para lasaña, relleno de carne y un poco de salsa bechamel (opcional) hasta llegar casi al borde de la fuente, terminando con una capa de pasta y regando la lasaña con una cantidad generosa de bechame. 8- Espolvoreamos la superficie con 50 g de queso rallado (yo he usado cheddar) y la cocemos en el horno, precalentado a 200 ºC con calor arriba y abajo, durante 30 minutos o el tiempo que indique el paquete de la pasta a utilizar. 9- Cuando la lasaña esté dorada por la superficie, la retiramos del horno y dejamos que se atempere unos minutos antes de servir.",
     "tiempo": "1 hora",
     "image":
-        " https://elpetitchef.com/sites/default/files/2020-11/presentacion_227.jpg"
+        "https://www.huleymantel.com/uploads/s1/30/73/78/lasan-a-de-carne-canva.jpeg"
   },
   {
     "id": 44,
@@ -644,7 +644,7 @@ const recetas = [
         "Asa la carne asada a tu gusto. Córtala a contrapelo y luego en trozos pequeños. Machaca el aguacate con una cuchara y unta una o dos cucharadas grandes sobre cada tortilla. Luego, cubre el aguacate con carne asada picada, espolvorea con queso cotija, cebolla picada y cilantro fresco. Exprime jugo de limón fresco por encima. ¡Listo ya tienes unos deliciosos tacos de carne asada!",
     "tiempo": "30 min",
     "image":
-        " https://www.cocinadelirante.com/sites/default/files/images/2024/10/receta-de-tacos-de-carne-asada.jpg"
+        "https://www.cocinadelirante.com/sites/default/files/images/2024/10/receta-de-tacos-de-carne-asada.jpg"
   },
   {
     "id": 45,
@@ -685,7 +685,7 @@ const recetas = [
     "preparacion":
         "Corta el pollo en trozos pequeños y salpimienta. En una cacerola, calienta aceite de oliva y sofríe los ajos sin pelar. Añade el laurel y el pollo. Cocinamos a fuego fuerte hasta dorar el pollo. Reservamos. Pica las verduras: corta la cebolla y los pimientos. Añade una cucharadita de sal y pocha en la cacerola. Pela los tomates córtalos en pequeños cubos. Añádelos en la cazuela y cocina a fuego medio algo durante 5 minutos. Mientras, ve calentando el caldo de pollo que agregaremos en el punto XX. En la cacerola de las verduras, añade el vino blanco y, una vez caliente, añade los guisantes para que cuezan. Una vez reducido el vino y se haya evaporado, sofríe el arroz un minuto. Añade el pollo reservado en el punto 2, el caldo de pollo que hemos calentado previamente y el colorante. Mezcla bien y rectifica de sal. Cocina a fuego alto durante 5 minutos y luego baja a fuego medio durante 8-9 minutos hasta que el arroz esté en su punto. Retira del fuego, tapa con un paño limpio y deja reposar unos 5 minutos. Corta el limón y sírvelo en un plato aparte para que cada comensal coja el limón que necesite",
     "tiempo": "45 min",
-    "image": " https://www.annarecetasfaciles.com/files/cordon-bleub.jpg"
+    "image": "https://www.annarecetasfaciles.com/files/cordon-bleub.jpg"
   },
   {
     "id": 47,
@@ -702,7 +702,7 @@ const recetas = [
         "En una sartén rociar aceite y saltear el ajo picado y la cebolla, cocinar moviendo constantemente hasta que la cebolla tome un tono transparente. Añadir las fajitas de res y sazonar con pimienta; cocinar hasta que comiencen a tomar un tono dorado. Incorporar el chile morrón amarillo y habichuelas precocidas, mezclar bien y cocinar por 5 minutos moviendo ocasionalmente, hasta que los vegetales tomen un color vivo y suavicen ligeramente. Ahora a servir y a disfrutar",
     "tiempo": "30 min",
     "image":
-        " https://mandolina.co/wp-content/uploads/2020/11/comidas-mexicanas-recetas-fajitas-de-carne-1200x720.jpg"
+        "https://mandolina.co/wp-content/uploads/2020/11/comidas-mexicanas-recetas-fajitas-de-carne-1200x720.jpg"
   },
   {
     "id": 48,
@@ -722,7 +722,7 @@ const recetas = [
         "1- Preparamos todos los ingredientes que vamos a necesitar para elaborar las hamburguesas: 1 kilo de carne picada, 1 cebolla, 1 huevo, 3 dientes de ajo, perejil fresco, sal, pimienta, salsa de mostaza, 1 pieza de pan duro y aceite de oliva. 2- Lo primero que debes hacer para conseguir unas hamburguesas con una textura única es poner el pan duro (puede ser del día anterior) en remojo: colócalo en un recipiente hondo y cúbrelo de agua natural. Deja que empape bien. 3- Mientras se empapa bien el pan comenzamos a picar los ingredientes: primero la cebolla muy finita y luego lo dientes de ajo, también en trozos pequeños. 4- Mientras se empapa bien el pan comenzamos a picar los ingredientes: primero la cebolla muy finita y luego lo dientes de ajo, también en trozos pequeños. 5- Salpimentamos la carne al gusto. Colocamos ésta en un recipiente lo suficientemente grande para que nos permita trabajar luego cómodamente con ella. Escurrimos el pan y lo colocamos junto a la carne. Añadimos también el huevo, la cebolla y el ajo, el perejil y la salsa de mostaza, que dará un sabor singular a este plato. 6- Ha llegado el momento más divertido: el de mancharnos las manos. Hay que mezclar bien todos los ingredientes de manera que quede una masa homogénea. 7- Una vez conseguida esa masa, hay que hacer bolas medianas con la carne, como si se tratasen de albóndigas, pero en lugar de dejarlas completamente redondas, achatarlas un poco. Así conseguiremos la característica forma de las hamburguesas. 8- En una sartén grande pon aceite a calentar. Cuando esté lo suficientemente caliente, añade las hamburguesas y fríelas hasta que se doren al gusto. 9- Una vez estén fritas ve retirándolas del fuego y colócalas en un plato. 10- Puedes tomarlas a la manera habitual: con pan, acompañada de una loncha de queso y algunas verduras y salsas, o bien de una manera más ligera, sin pan ni acompañamientos, e incluso, puedes darle un toque gourmet con algún queso manchego, de cabra o incluso queso azul y un poco de cebolla caramelizada.",
     "tiempo": "30 min",
     "image":
-        " https://www.recetasnestle.com.py/sites/default/files/srh_recipes/8b2e6fd4d9bae3f7ecd10f962c80ff04.jpg"
+        "https://www.recetasnestle.com.py/sites/default/files/srh_recipes/8b2e6fd4d9bae3f7ecd10f962c80ff04.jpg"
   },
   {
     "id": 49,
@@ -742,7 +742,8 @@ const recetas = [
     "preparacion":
         "Pelamos las papas, las cortamos en bastones y las distribuimos en el cestillo freidor. Colocamos abundante aceite en la Cacerola, tapamos y calentamos a fuego fuerte. Una vez caliente, introducimos el cestillo con las papas. Volvemos a tapar y cocinamos a fuego fuerte hasta que estén doradas. Importante: no revolver durante la cocción para que no se peguen ni se rompan. Mientras tanto preparamos las milanesas. En un Bol batimos los huevos, la mostaza y condimentamos con sal y pimienta. Por otra parte, mezclamos el pan rallado con la avena y las semillas. Pasamos la carne primero por harina, luego por los huevos y finalmente por la mezcla de pan rallado. Una vez listas las papas, las retiramos del cestillo y colocamos las milanesas, tapamos y continuamos la cocción a fuego fuerte. Retiramos el cestillo freidor y dejamos escurrir sobre el soporte escurridor.",
     "tiempo": "35 min",
-    "image": " https://latitud2000.com/wp-content/uploads/2023/05/0001-1.jpg "
+    "image":
+        "https://lh5.googleusercontent.com/proxy/RYJ3PNIsf9OzLWnlWdd8EWgoN7C9fbH83kZqBswV_e3eGQHC9qCo1LYm5W-2lAzQ0gGLT2VqFfX3theXtkinczfiCAtfcrhMbMXJZTfKU7jHBf5WjtgDw16PeDa0O8pf6_Vr"
   },
   {
     "id": 50,
@@ -762,7 +763,7 @@ const recetas = [
         "1- En una olla hierve el agua y cocina el pollo con la cebolla, el ajo, el cilantro y un poco de sal alrededor de 50 minutos o hasta que esté cocido. Reserva el caldo y desmenuza el pollo. 2- Para el caldillo, licúa los jitomates con la cebolla, el ajo, el chile chipotle, una taza de caldo de pollo, sal y pimienta hasta obtener una mezcla tersa. 3- En un sartén profundo, cocina la cebolla fileteada con el aceite hasta que esté transparente. Agrega el caldillo, deja que suelte el hervor y cocina alrededor de 20 minutos. Añade el pollo, sazona y cocina 10 minutos más. Opcional, sirve y acompaña con tostadas y frijoles",
     "tiempo": "40 min",
     "image":
-        " https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_93pdboz6hl_tinga.jpg"
+        "https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_93pdboz6hl_tinga.jpg"
   },
   {
     "id": 51,
@@ -780,7 +781,7 @@ const recetas = [
         "1- Pela los camarones crudos y quítales la cola (deben estar descongelados. 2- En un sartén de teflón o un “iron cast”, echa el aceite de oliva y la mantequilla. Cocina a fuego medio. 3- Cuando se derrita la mantequilla, añade el ajo molido y cocina un par de minutos a fuego medio sin que se queme el ajo. Añade el vino-jerez. 4- Si se comienza a dorar el ajo puedes añadir un poco de agua (1 ó 2 cucharadas) o sacar el sartén de la hornilla. 5- Añade los camarones y sobre los camarones, sazónalos con sal kosher. 6- Deja que se cocinen los camarones por cada lado un par de minutos nada más. Debes sacar los camarones antes de que se seque el líquido donde están cocinando. Prueba la “salsa” para saber si necesita más sal. 7- Al servir echa encima el perejil picadito. Sirve inmediatamente. Si lo sirves como “tapa” sírvelo con pan francés fresco, cortado en rebanadas",
     "tiempo": "15 min",
     "image":
-        " https://cdn.colombia.com/gastronomia/2013/02/12/camarones-al-ajillo-2954-1.jpg"
+        "https://cdn.colombia.com/gastronomia/2013/02/12/camarones-al-ajillo-2954-1.jpg"
   },
   {
     "id": 52,
@@ -803,7 +804,7 @@ const recetas = [
     "preparacion":
         "1- Desecha todos los mejillones con el caparazón roto o abiertos (muertos). Limpia los mejillones restantes con agua fría, quita los percebes con un cuchillo para cortar sin filo. Quita las barbas. Coloca los mejillones en un recipiente grande. Cubre con agua fría. Revuelve el agua con la mano, luego escurre y desecha el agua. Repite varias veces hasta que el agua esté limpia; escurre. 2- Calienta 1/2 taza de caldo de pollo en un recipiente para microondas. Agrega azafrán al caldo de pollo caliente y déjalo reposar durante 5 minutos o hasta que el líquido esté de color amarillo oscuro. No deseches el azafrán. 3- alienta el aceite en una sartén para paella de 14 pulgadas a fuego medio-alto. Cocina la cebolla, el ajo y el arroz en el aceite de 1 a 2 minutos o hasta que la cebolla esté blanda. Agrega los camarones, los mejillones, las almejas, los chicharos (guisantes), la ramita de perejil, el caldo de pollo y con la infusión de azafrán y sal a la mezcla de arroz y cebolla. 4- Calienta a fuego alto hasta que rompa a hervir y, luego, reduce el fuego a medio-bajo. Tapa completamente la sartén con papel aluminio. Cubre el papel aluminio con una toalla húmeda. Asegúrate de que los bordes de la toalla no cuelguen por los lados de la sartén. Cocina de 20 a 25 minutos o hasta que se absorba el líquido, las almejas y los mejillones se abran, los camarones estén rosados y el arroz cocido. 5- Retira las almejas o los mejillones que no estén abiertos. Decora con pimientos rojos asados.",
     "tiempo": "1 hora",
-    "image": " https://imag.bonviveur.com/paella-marisco.jpg "
+    "image": "https://imag.bonviveur.com/paella-marisco.jpg"
   },
   {
     "id": 53,
@@ -824,7 +825,7 @@ const recetas = [
         "1- Corta en cuadritos el filete de pescado. Usa tu pescado blanco favorito (tilapia, corvina, sierra, mero etc). 2- Mezcla en un recipiente el pescado con el jugo de limón. Refrigera por 1 a 2 horas para que el limón pueda “cocer” al pescado. 3- Pasado el tiempo agrega el tomate, cebolla, cilantro, chile y sazona al gusto con sal y pimienta negra. 4- Mezcla bien y sirve con tostadas de maíz, aguacate al gusto, salsa picante o salsa estilo cocktail.",
     "tiempo": "30 min",
     "image":
-        " https://images.aws.nestle.recipes/original/bd6120d9106fe10eb34ad5e3a5587710_ceviche-de-pescado.jpg "
+        "https://images.aws.nestle.recipes/original/bd6120d9106fe10eb34ad5e3a5587710_ceviche-de-pescado.jpg"
   },
   {
     "id": 54,
@@ -842,7 +843,7 @@ const recetas = [
         "Preparación del pulpo: 1- Es muy importante ablandar el pulpo antes de cocinarlo, he visto como lo hacían golpeándolo contra la piedra en la Isla de Ons. Pero por suerte si lo congelamos el resultado es prácticamente el mismo. Ayuda a que la carne quede más tierna. Así que lo único que debemos hacer es congelarlo si lo hemos comprado fresco o comprarlo directamente congelado. 2- Sacamos el pulpo un día antes del congelador y lo pasamos al frigorífico para que se descongele. Es importante hacerlo en una cazuela o un bol grande pues va a soltar mucho líquido y puede desbordar. A la hora de cocinar lo pasamos un poco por agua fría para quitar posibles impurezas. 3- Ponemos una cazuela (la más grande que tengamos) al fuego con agua, no añadimos sal pues el pulpo se sala al final, en la presentación. 4- Cuando rompa a hervir añadimos el pulpo, lo cogemos por la cabeza y «lo asustamos», esta técnica consiste en meter y sacar el pulpo 3 veces de la cazuela para conseguir que el pulpo se quede tieso y no se le caiga la piel durante la cocción. 5- Cocemos el pulpo durante unos 35-40 a fuego medio dependiendo del tamaño (lo normal es cocer un pulpo de 1,8 kg – 2 kg, con 30-35 es suficiente). En este caso, era un pulpo de 3 kilos, con lo que tuvimos que cocerlo desde que empezó a hervir unos 40 minutos. 6- Hay que pincharlo de vez en cuando para ver como está de duro. La primera vez que lo cocinéis os costará cogerle el punto, pero luego os saldrá de perlas. Preparación de las papas: 1- Mientras está cociendo, pelamos, lavamos y troceamos las patatas a la mitad. Reservamos. Cuando acabemos de cocer el pulpo lo dejamos reposar unos minutos y luego lo sacamos a una fuente. En la misma agua echamos las patatas y cocemos durante 15 minutos. 2- Si no quieres que cojan el color rosado puedes hacerlas en otra cazuela. Eso depende de cada uno, a mí me gustan con el sabor al pulpo. Cortamos el pulpo con unas tijeras de cocina, las patas en trozos de 1 cm de grosor y la cabeza en trozos pequeños. 3- Lo servimos en plato de madera con una base de papas. Salamos con sal gorda, espolvoreamos con el pimentón (picante o dulce) y rociamos con un poco de aceite de oliva virgen extra. A mí me gusta aliñarlo también con un poco de agua de la cocción",
     "tiempo": "30 min",
     "image":
-        " https://www.hola.com/horizon/original_aspect_ratio/7fe35e967b0b-adobestock158525580.jpg"
+        "https://www.hola.com/horizon/original_aspect_ratio/7fe35e967b0b-adobestock158525580.jpg"
   },
   {
     "id": 55,
@@ -851,7 +852,7 @@ const recetas = [
     "preparacion": "Empanizar y freír",
     "tiempo": "25 min",
     "image":
-        " https://www.hola.com/horizon/original_aspect_ratio/7fe35e967b0b-adobestock158525580.jpg"
+        "https://i.pinimg.com/736x/b8/1a/10/b81a1017d2815b03dd7e93529472bc71.jpg"
   },
   {
     "id": 56,
@@ -860,7 +861,7 @@ const recetas = [
     "preparacion": "Mezclar ingredientes y servir frío",
     "tiempo": "20 min",
     "image":
-        " https://www.hola.com/horizon/original_aspect_ratio/7fe35e967b0b-adobestock158525580.jpg"
+        "https://aderezo.mx/wp-content/uploads/2024/07/menu-acapulco-Kjwyy77WPtQ-unsplash-750x375.jpg"
   },
   {
     "id": 57,
@@ -869,7 +870,7 @@ const recetas = [
     "preparacion": "Freír pescado, servir en tacos",
     "tiempo": "30 min",
     "image":
-        " https://www.hola.com/horizon/original_aspect_ratio/7fe35e967b0b-adobestock158525580.jpg"
+        "https://veggiefestchicago.org/wp-content/uploads/2023/04/Fish-Tacos.jpg"
   },
   {
     "id": 58,
@@ -878,7 +879,7 @@ const recetas = [
     "preparacion": "Cocer juntos con caldo",
     "tiempo": "45 min",
     "image":
-        " https://www.hola.com/horizon/original_aspect_ratio/7fe35e967b0b-adobestock158525580.jpg"
+        "https://www.recetasthermomix.pe/wp-content/uploads/recetas_0657c4454ca33fa8c6f001769ab2b80f.jpg"
   },
   {
     "id": 59,
@@ -887,7 +888,7 @@ const recetas = [
     "preparacion": "Cocer mariscos en caldo con especias",
     "tiempo": "1 hora",
     "image":
-        " https://www.hola.com/horizon/original_aspect_ratio/7fe35e967b0b-adobestock158525580.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgGFMthiBHdaXXv8pPP9L8KqdxmPM-Qf5Yg&s"
   },
   {
     "id": 60,
@@ -896,6 +897,6 @@ const recetas = [
     "preparacion": "Freír camarones en salsa picante",
     "tiempo": "30 min",
     "image":
-        " https://www.hola.com/horizon/original_aspect_ratio/7fe35e967b0b-adobestock158525580.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5P8AG139p2kxYLiP15sxyZpVpOnywAcByjg&s"
   }
 ];
