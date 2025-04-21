@@ -13,10 +13,10 @@ final router = GoRouter(
       builder: (context, settings) => HomePage(),
       routes: [
         GoRoute(
-          path: '/:recetasId', // /productos/4
+          path: '/:recetaId',
           name: 'detalle-recetas',
           builder: (BuildContext context, GoRouterState settings) {
-            final id = settings.pathParameters['recetasId'];
+            final id = settings.pathParameters['recetaId'];
             final extras = settings.extra as Map;
             print(extras);
 

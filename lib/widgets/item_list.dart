@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 class ItemList extends StatefulWidget {
   ItemList({super.key, required this.receta});

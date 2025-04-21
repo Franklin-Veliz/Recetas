@@ -12,9 +12,7 @@ class Favorito extends StatelessWidget {
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
         ),
       ),
-      body: Center(
-        child: Text("Favoritos"),
-      ),
+      body: Center(),
     );
   }
 }
