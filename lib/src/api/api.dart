@@ -849,7 +849,8 @@ const recetas = [
     "id": 55,
     "nombre": "Camarones empanizados",
     "ingredientes": {"Camarones", "huevo", "pan molido"},
-    "preparacion": "Empanizar y freír",
+    "preparacion":
+        "1- pela los camarones dejando solo la cola y córtalos por el lomo para retirarles el tubo digestivo de color negro. Una vez hecho esto, ya los habremos limpiado y dejado con forma de mariposa. 2- Coge un recipiente y prepara la harina para empanizar los camarones. Para ello, mézclala con el ajo puro en polvo, sal y pimienta. Si quieres, puedes agregar más especias y variar las cantidades para adaptarlas a tu gusto. 3- Aparte, bate los huevos y resérvalos en ese plato, no los mezcles con la harina. Coge un tercer plato y coloca el empanizador escogido. Puedes utilizar panko, pan molido..., lo que quieras que aporte un toque crujiente a los camarones empanizados. 4- Coge una sartén grande con el aceite suficiente como para cubrir los camarones y ponla a fuego medio para que el aceite se caliente. 5- Para rebozar los camarones, pasa cada uno de ellos primero por la harina preparada, procurando que se pegue muy bien por todos lados. Luego, pásalos por el huevo batido y, finalmente, por el polvo para empaniza. 6- Fríe los camarones rebozados cuando el aceite esté caliente hasta que se doren. Una vez dorados, resérvalos sobre papel absorbente para retirar el exceso de aceite. 7- ¡Listo! Ya puedes servir la receta de camarones empanizados fritos.",
     "tiempo": "25 min",
     "image":
         "https://i.pinimg.com/736x/b8/1a/10/b81a1017d2815b03dd7e93529472bc71.jpg"
@@ -858,7 +859,8 @@ const recetas = [
     "id": 56,
     "nombre": "Coctel de camarón",
     "ingredientes": {"Camarón cocido", "salsa coctelera", "vegetales"},
-    "preparacion": "Mezclar ingredientes y servir frío",
+    "preparacion":
+        "Cocción camarones: 1- Pela los camarones y desvena. Si prefieres comprar o usar camarones ya limpios o cocidos revisa las notas de la receta para que veas la cantidad de camarones a usar. 2- Cocina los camarones limpios en agua hirviendo con cebolla y ajo. Cocina unos segundos o hasta que estén rosas y se hayan enrollado. No cocines de más, retira del agua, cuela y enfría con agua. Reserva 1 taza del agua de cocción o ahora caldo de cocción de los camarones. Coctel: 1- Mezcla en un bowl o recipiente la cátsup, clamato o la misma cantidad de caldo de cocción de los camarones, salsa picante, salsa inglesa, jugo de limón y sazona al gusto con sal y pimienta. 2- Agrega los camarones, el tomate, el pepino, cebolla morada, cilantro y mezcla bien. Si lo prefieres más caldoso agrega más clamato (jugo de tomate con almeja) o caldo de cocción de los camarones al gusto. 3- Deja reposar 15 minutos en el refrigerador. 4- Sirve con galletas saladas y decora con aguacate en cubos. Yo acompañé de más limón, salsa picante y una cerveza bien fría",
     "tiempo": "20 min",
     "image":
         "https://aderezo.mx/wp-content/uploads/2024/07/menu-acapulco-Kjwyy77WPtQ-unsplash-750x375.jpg"
@@ -867,7 +869,8 @@ const recetas = [
     "id": 57,
     "nombre": "Tacos de pescado",
     "ingredientes": {"Filete de pescado", "tortillas", "repollo"},
-    "preparacion": "Freír pescado, servir en tacos",
+    "preparacion":
+        "1- Lávese las manos con agua y jabón. 2- Limpie y corte la cebolla, el cilantro y el repollo (col). Mezcle en un tazón y aparte. 3- Engrase una bandeja para hornear con aceite en aerosol. Espolvoree ligeramente los filetes de pescado con chile (ají) en polvo y colóquelos en la bandeja. 4- Coloque en el horno, a unas 6 pulgadas del asador de la estufa, y cocine durante aproximadamente 3 a 4 minutos o hasta que el pescado esté bien cocido. Usted sabrá que el pescado está listo cuando pueda desmenuzarlo fácilmente con un tenedor. 5- Sofría ligeramente las tortillas en una plancha o sartén con aceite, o caliéntelas en el horno microondas durante unos segundos hasta que estén suaves y calientes. 6- Rellene la tortilla con el pescado, el repollo, la cebolla y el cilantro, y doble por la mitad. Sirva con la salsa y rodajas de cítricos, si así lo desea",
     "tiempo": "30 min",
     "image":
         "https://veggiefestchicago.org/wp-content/uploads/2023/04/Fish-Tacos.jpg"
@@ -876,7 +879,8 @@ const recetas = [
     "id": 58,
     "nombre": "Arroz con mariscos",
     "ingredientes": {"Arroz", "mezcla de mariscos", "pimientos"},
-    "preparacion": "Cocer juntos con caldo",
+    "preparacion":
+        "1- Precalienta bien tu sartén. Precalienta una sartén grande a fuego medio-alto para dorar los mariscos. Asegúrate que esté precalentada porque los mariscos solo necesitan una pasada veloz por el fuego así que para dorarse tiene que estar bien caliente. 2- Usa una mezcla de aceite de oliva y mantequilla. Para dorar los mariscos me gusta usar una mezcla de aceite de oliva y un poquito de mantequilla. La mantequilla dora precioso las proteínas y les da un sabor muy rico. 3- Trabaja en tandas al dorar los mariscos. Evita llenar mucho la sartén donde dores los mariscos. Necesitamos que la temperatura se mantenga alta y que no se hiervan en sus propios jugos. Por eso es importante ir trabajando en tandas y dejar espacio entre los mariscos. 4- No sobre cocines los mariscos. Los mariscos y en especial los que usé yo no necesitan más que un par de minutos para estar totalmente cocidos. Más tiempo que eso y se ponen chiclosos y desagradables para comer. Además, luego de dorarlos van a regresar al arroz ya listo y con ese calor se siguen cocinando así que mucho ojo con eso. 5- Usa la misma sartén. Una vez que ya hayas dorado los mariscos, usa la misma sartén para cocinar la cebolla picada, el pimiento rojo, dientes de ajo y el resto del sofrito. Así aprovechamos el sabor que dejaron los mariscos en la sartén.",
     "tiempo": "45 min",
     "image":
         "https://www.recetasthermomix.pe/wp-content/uploads/recetas_0657c4454ca33fa8c6f001769ab2b80f.jpg"
@@ -885,7 +889,8 @@ const recetas = [
     "id": 59,
     "nombre": "Sopa de mariscos",
     "ingredientes": {"Mariscos surtidos", "jitomate", "ajo"},
-    "preparacion": "Cocer mariscos en caldo con especias",
+    "preparacion":
+        "1- Lavar los mejillones y las almejas.Pelar las gambas y quitarles la cabeza. Hacer lo mismo con los langostinos, si se utilizan. 2- Con un poquito de aceite, saltear estos mariscos a fuego medio-bajo por diez minutos. Reservar. En una olla grande, disponer mejillones y almejas. Tapar y calentar hasta que se abran. 3- Sacar los mejillones y las almejas de sus cáscaras. Reservar. Pelar y picar la papa y la cebolla en pequeños cubos. 4- Pelar y picar el ajo en trozos menudos. Lavar el tomate y picarlo en cubos. 5- Corta la zanahoria en tiras medianas o en rodajas, como prefieras 6- Con un poco de aceite, hacer un sofrito de cebolla y ajo, en una olla. Dejar cocer cinco minutos. Añadir el tomate, zanahoria, perejil y el pimiento, con una pizca de sal. Mezclar y dejar diez minutos más (a fuego medio - bajo). 7- Mientras tanto, desmigajar el pan e incorporarlo a la mezcla, para cinco minutos adicionales. Sumar el caldo de pescado. 8- Remover la mezcla y pasarla por la licuadora. Devolver el contenido de la licuadora a la olla y añadir todos los mariscos, más los cubos de papa. Dejar cocinar quince minutos. 9- Salpimentar al gusto y remover, sin apagar. 10- Ahora viene mi paso favorito, porque es aquí donde tenemos que probar todo: de entrada el caldo, para saber si está bien sazonado con sal y pimienta, y si no, corregirlo. Luego, un cubito de papa, para ver si la textura quedó bien con la cocción. Después, la mejor parte: probar una almeja y un mejillón. Normalmente, todo debería estar en orden y bien cocido, pero como cada cocina es un mundo, si por alguna razón la sopa necesita más tiempo, déjala cinco minutos adicionales. Nada más no te vayas a comer todos los ingredientes con la excusa de que estabas probando.Apagar y servir caliente",
     "tiempo": "1 hora",
     "image":
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgGFMthiBHdaXXv8pPP9L8KqdxmPM-Qf5Yg&s"
@@ -893,8 +898,9 @@ const recetas = [
   {
     "id": 60,
     "nombre": "Camarones a la diabla",
-    "ingredientes": {"Camarones", "chile guajillo", "ajo"},
-    "preparacion": "Freír camarones en salsa picante",
+    "ingredientes": {"Camarones", "chile guajillo", "ajo", "jalapeño chiles"},
+    "preparacion":
+        "En una cacerola grande y profunda, saltea el ajo con una cucharada de aceite de oliva, luego agrega el puré de tomate, sal y pimienta. Cocina los chiles jalapeños hasta que la piel se oscurezca, ya sea en una parrilla, estufa de gas o debajo de la parrilla. Coloca los chiles en una bolsa de plástico para almacenar alimentos, deja que se cocinen con su propio vapor durante 10 a 15 minutos; saca de la bolsa y retira las semillas y la piel. Coloca los chiles en una procesadora de alimentos o licuadora junto con los chiles chipotles y licúa con un poco de agua. Cuando termines, agrega el puré de chile a la mezcla de salsa de tomate y continúa cocinando por 15 minutos. En un tazón grande, sazona los camarones con comino, sal y pimienta. Calienta la cucharada restante de aceite de oliva en un sartén grande; agrega los camarones y cocina hasta que adquieran un color rosado. Combina los camarones cocidos con la salsa preparada; revuelve bien. Adorna con cilantro fresco y rodajas de aguacate. Sirve con una guarnición de arroz blanco.",
     "tiempo": "30 min",
     "image":
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5P8AG139p2kxYLiP15sxyZpVpOnywAcByjg&s"

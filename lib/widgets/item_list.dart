@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class ItemList extends StatelessWidget {
-  const ItemList({super.key, required this.receta});
-
+class ItemList extends StatefulWidget {
+  ItemList({super.key, required this.receta});
+  int selecteIndex = 0;
   final Map<String, dynamic> receta;
+
+  @override
+  State<ItemList> createState() => _ItemListState();
+}
+
+class _ItemListState extends State<ItemList> {
+  int selecteIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -23,13 +30,28 @@ class ItemList extends StatelessWidget {
               Image(
                 height: 250,
                 fit: BoxFit.fill,
-                image: NetworkImage(receta['image']),
+                image: NetworkImage(widget.receta['image']),
               ),
-              Text(
-                (receta['nombre']),
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
+              Container(
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        (widget.receta['nombre']),
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.favorite_border,
+                        color: Colors.red,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ],
@@ -37,5 +59,12 @@ class ItemList extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  Widget _Colores(IconData icon, bool selectedIndex) {
+    return Icon(Icons.favorite,
+        color: selectedIndex
+            ? const Color.fromARGB(255, 227, 41, 31)
+            : Colors.blueGrey);
   }
 }

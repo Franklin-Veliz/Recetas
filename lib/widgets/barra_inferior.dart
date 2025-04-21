@@ -23,28 +23,25 @@ class _BarraInferiosState extends State<BarraInferior> {
       extendBody: true,
       //backgroundColor: Colors.tealAccent,
       body: screens[selectedIndex],
-      bottomNavigationBar: Container(
-        //margin: const EdgeInsets.only(bottom: 10),
-        child: CurvedNavigationBar(
-          key: navigationKey,
-          color: const Color.fromARGB(255, 246, 244, 103),
-          backgroundColor: Colors.transparent,
-          height: 60,
-          animationCurve: Curves.easeInOut,
-          animationDuration: Duration(milliseconds: 300),
-          index: selectedIndex,
-          items: <Widget>[
-            _builNavItem(Icons.home, selectedIndex == 0),
-            _builNavItem2(Icons.favorite, selectedIndex == 1),
-            _builNavItem3(Icons.account_circle, selectedIndex == 2),
-          ],
-          // buttonBackgroundColor: Colors.brown,
-          onTap: (value) {
-            setState(() {
-              selectedIndex = value;
-            });
-          },
-        ),
+      bottomNavigationBar: CurvedNavigationBar(
+        key: navigationKey,
+        color: const Color.fromARGB(255, 246, 244, 103),
+        backgroundColor: Colors.transparent,
+        height: 60,
+        animationCurve: Curves.easeInOut,
+        animationDuration: Duration(milliseconds: 300),
+        index: selectedIndex,
+        items: <Widget>[
+          _builNavItem(Icons.home, selectedIndex == 0),
+          _builNavItem2(Icons.favorite, selectedIndex == 1),
+          _builNavItem3(Icons.account_circle, selectedIndex == 2),
+        ],
+        // buttonBackgroundColor: Colors.brown,
+        onTap: (value) {
+          setState(() {
+            selectedIndex = value;
+          });
+        },
       ),
     );
   }

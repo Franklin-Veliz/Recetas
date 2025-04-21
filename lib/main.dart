@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:recetas/src/router/routes.dart';
 import 'package:recetas/src/views/home_page.dart';
 import 'package:recetas/widgets/barra_inferior.dart';
+import 'package:recetas/widgets/favorito_provider.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,10 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: "Recetas",
-      home: BarraInferior(),
+      //home: HomePage(),
+      routerConfig: router,
     );
   }
 }
