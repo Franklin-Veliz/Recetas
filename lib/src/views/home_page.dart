@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recetas/src/views/favoritos.dart';
+import 'package:recetas/src/views/git_page.dart';
 import 'package:recetas/src/views/login.dart';
-import 'package:recetas/src/views/principal_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -34,13 +34,14 @@ class _HomePageState extends State<HomePage> {
         controller: pc,
         onPageChanged: setPaginaActual,
         children: [
-          PrincipalPage(),
+          GitPage(),
+          //PrincipalPage(),
           Favorito(),
           LoginPage(),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: const Color.fromARGB(255, 225, 207, 4),
+        backgroundColor: const Color.fromARGB(255, 245, 187, 116),
         selectedItemColor: colores[selectedIndex],
         currentIndex: selectedIndex,
         onTap: (value) {

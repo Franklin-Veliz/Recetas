@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recetas/src/router/routes.dart';
+import 'package:recetas/src/views/git_page.dart';
+import 'package:recetas/src/views/home_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,11 +10,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Recetas",
-      //home: HomePage(),
-      routerConfig: router,
+      home: HomePage(),
+      //routerConfig: router,
     );
   }
 }
