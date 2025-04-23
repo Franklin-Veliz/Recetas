@@ -1,35 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:recetas/src/views/principal_page.dart';
-
-List<ImageDetails> _images = [
-  ImageDetails(
-      imagePacht:
-          "https://sharepostt.com/wp-content/uploads/2022/09/Comidas-Con-L-Lasagna.jpg",
-      title: "Comidas"),
-  ImageDetails(
-      imagePacht:
-          "https://buenprovecho.hn/wp-content/uploads/2024/01/sopa-de-res.jpg",
-      title: "Sopas"),
-  ImageDetails(
-      imagePacht:
-          "https://www.laespanolaaceites.com/wp-content/uploads/2019/05/ensalada-de-pasta-con-rosbif-de-atun.jpg",
-      title: "Ensaladas"),
-  ImageDetails(
-      imagePacht:
-          "https://img.freepik.com/foto-gratis/coctel-cubierto-rodaja-naranja_141793-643.jpg?semt=ais_hybrid&w=740",
-      title: " Bebidas"),
-  ImageDetails(
-      imagePacht:
-          "https://gastronomicainternacional.com/wp-content/uploads/2020/06/ideas-de-recetas-de-postres-faciles-cheesecake-fresa.jpg",
-      title: "Postre"),
-  ImageDetails(
-      imagePacht: "https://i.blogs.es/08f5e0/aperitivos-canapes/1366_2000.jpg",
-      title: "Aperitivos"),
-];
+import 'package:recetas/src/views/aperitivos_page.dart';
+import 'package:recetas/src/views/bebidas_page.dart';
+import 'package:recetas/src/views/ensaladas_page.dart';
+import 'package:recetas/src/views/comidas_page.dart';
+import 'package:recetas/src/views/mariscos_page.dart';
+import 'package:recetas/src/views/postres_page.dart';
 
 class GitPage extends StatelessWidget {
-  const GitPage({super.key});
-
+  GitPage({super.key});
+  String imagenes =
+      "https://sharepostt.com/wp-content/uploads/2022/09/Comidas-Con-L-Lasagna.jpg";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -63,12 +43,137 @@ class GitPage extends StatelessWidget {
                     topRight: Radius.circular(30),
                   ),
                 ),
-                child: GridView.builder(
+                child: GridView(
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
-                      crossAxisSpacing: 20,
-                      mainAxisSpacing: 20),
-                  itemBuilder: (context, index) {
+                      crossAxisSpacing: 10,
+                      mainAxisSpacing: 10),
+                  children: [
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => ComidasPage()));
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                "https://sharepostt.com/wp-content/uploads/2022/09/Comidas-Con-L-Lasagna.jpg"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => MariscosPage()));
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                "https://centrosantafe.com.mx/cdn/shop/articles/restaurantes-de-mariscos-y-otras-opciones-para-comer-en-cuaresma.jpg?v=1552671997"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => EnsaladasPage()));
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                "https://www.laespanolaaceites.com/wp-content/uploads/2019/05/ensalada-de-pasta-con-rosbif-de-atun.jpg"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => BebidasPage()));
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                "https://img.freepik.com/foto-gratis/coctel-cubierto-rodaja-naranja_141793-643.jpg?semt=ais_hybrid&w=740"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => PostresPage()));
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                "https://gastronomicainternacional.com/wp-content/uploads/2020/06/ideas-de-recetas-de-postres-faciles-cheesecake-fresa.jpg"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => AperitivosPage()));
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          image: DecorationImage(
+                            image: NetworkImage(
+                                "https://i.blogs.es/08f5e0/aperitivos-canapes/1366_2000.jpg"),
+                            fit: BoxFit.cover,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class ImageDetails {
+  final String imagePacht;
+  final String title;
+  ImageDetails({required this.imagePacht, required this.title});
+}
+/*itemBuilder: (context, index) {
                     return RawMaterialButton(
                       onPressed: () {
                         Navigator.push(
@@ -89,22 +194,7 @@ class GitPage extends StatelessWidget {
                       ),
                     );
                   },
-                  itemCount: _images.length,
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-class ImageDetails {
-  final String imagePacht;
-  final String title;
-  ImageDetails({required this.imagePacht, required this.title});
-}
+                  itemCount: _images.length, */
 /*Scaffold(
       appBar: AppBar(
         title: Text("Nombre de la app"),
