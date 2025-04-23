@@ -8,8 +8,7 @@ import 'package:recetas/src/views/postres_page.dart';
 
 class GitPage extends StatelessWidget {
   GitPage({super.key});
-  String imagenes =
-      "https://sharepostt.com/wp-content/uploads/2022/09/Comidas-Con-L-Lasagna.jpg";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

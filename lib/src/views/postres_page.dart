@@ -8,7 +8,9 @@ class PostresPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 248, 230, 207),
       appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 248, 230, 207),
         title: Text(
           "Postres",
           style: TextStyle(
