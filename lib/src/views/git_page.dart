@@ -19,19 +19,19 @@ class GitPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             SizedBox(
-              height: 40,
+              height: 30,
             ),
             Text(
               "Categorias",
               style: TextStyle(
-                fontSize: 25,
+                fontSize: 40,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
               textAlign: TextAlign.center,
             ),
             SizedBox(
-              height: 40,
+              height: 30,
             ),
             Expanded(
               child: Container(
@@ -61,9 +61,26 @@ class GitPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(15),
                           image: DecorationImage(
                             image: NetworkImage(
-                                "https://sharepostt.com/wp-content/uploads/2022/09/Comidas-Con-L-Lasagna.jpg"),
+                                "https://www.brillante.es/wp-content/uploads/2023/10/typical-spanish-pincho-de-tortilla-spanish-omelet-2023-03-24-22-52-58-utc.jpg"),
                             fit: BoxFit.cover,
                           ),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "Comidas",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
                       ),
                     ),
@@ -79,9 +96,27 @@ class GitPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(15),
                           image: DecorationImage(
                             image: NetworkImage(
-                                "https://centrosantafe.com.mx/cdn/shop/articles/restaurantes-de-mariscos-y-otras-opciones-para-comer-en-cuaresma.jpg?v=1552671997"),
+                                "https://pescadoacasa.com/wp-content/uploads/2020/07/mariscos-mas-consumidos-1.jpg"),
                             fit: BoxFit.cover,
                           ),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "Mariscos",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                      color: const Color.fromARGB(
+                                          255, 244, 247, 247)),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
                       ),
                     ),
@@ -101,6 +136,23 @@ class GitPage extends StatelessWidget {
                             fit: BoxFit.cover,
                           ),
                         ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "Ensaladas",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                     InkWell(
@@ -118,6 +170,23 @@ class GitPage extends StatelessWidget {
                                 "https://img.freepik.com/foto-gratis/coctel-cubierto-rodaja-naranja_141793-643.jpg?semt=ais_hybrid&w=740"),
                             fit: BoxFit.cover,
                           ),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "Bebidas",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
                       ),
                     ),
@@ -137,6 +206,23 @@ class GitPage extends StatelessWidget {
                             fit: BoxFit.cover,
                           ),
                         ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "Postres",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                     InkWell(
@@ -151,9 +237,26 @@ class GitPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(15),
                           image: DecorationImage(
                             image: NetworkImage(
-                                "https://i.blogs.es/08f5e0/aperitivos-canapes/1366_2000.jpg"),
+                                "https://content.cuerpomente.com/medio/2023/11/21/aperitivos-navidad-vegetarianos_2b33a14a_231121114317_1280x720.jpg"),
                             fit: BoxFit.cover,
                           ),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "Aperitivos",
+                                  style: TextStyle(
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
                       ),
                     ),

@@ -9,7 +9,13 @@ class PostresPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Nombre de la app"),
+        title: Text(
+          "Postres",
+          style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              color: const Color.fromARGB(255, 97, 62, 49)),
+        ),
       ),
       body: ListView.builder(
         itemCount: postres.length,

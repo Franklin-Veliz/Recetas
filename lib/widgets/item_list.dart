@@ -15,14 +15,14 @@ class _ItemListState extends State<ItemList> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: const Color.fromARGB(255, 9, 220, 157),
+      color: Color.fromARGB(255, 250, 183, 101),
       child: InkWell(
         onTap: () {
           //navegacion a la pantalla de detalle
           // Navigator
         },
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(10.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
